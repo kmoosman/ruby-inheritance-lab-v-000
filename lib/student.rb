@@ -9,6 +9,10 @@ class Student < User
     @knowledge << item_learned
   end
   
+  def knowledge
+    @knowledge
+  end
+  
   
 
 end
